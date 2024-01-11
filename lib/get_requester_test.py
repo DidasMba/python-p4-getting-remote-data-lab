@@ -12,3 +12,5 @@ def test_get_response():
     requester = GetRequester(URL)
     actual_response = requester.get_response_body().decode('utf-8')  # Decode bytes to string
     assert actual_response == JSON_STRING
+
+from GetRequester import GetRequester
